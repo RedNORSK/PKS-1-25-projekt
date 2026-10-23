@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Германия глазами Айганыш • Мечты и атмосфера</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Видео на задний фон (используем то же уютное осеннее видео) -->
+    <video autoplay muted loop playsinline class="bg-video">
+        <source src="germany_streets.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+
+    <div class="page-layout">
+        
+        <!-- Сайдбар с навигацией и вашими кредитами -->
+        <aside class="sidebar">
+            <div class="sidebar-top">
+                <a href="students.html" class="back-btn">
+                    <span>←</span> Назад к группе
+                </a>
+                <span class="group-tag">Осеннее путешествие 🍂</span>
+
+                <!-- КНОПКА ПЕРЕХОДА НА ВТОРУЮ ЧАСТЬ -->
+                <a href="lifestyle.html" class="germany-link-btn">
+                    <img src="bakery-icon.jpg" alt="Кухня и уют" class="btn-icon-img">
+                    <div class="btn-text">
+                        <span class="btn-title">Кухня и Жильё</span>
+                        <span class="btn-sub">Выпечка, кафе и уют</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Блок авторов (gans.elin & Tord Larkson) -->
+            <div class="credits sidebar-credits">
+                <span class="credits-label">Создатели проекта</span>
+                <div class="authors-vertical">
+                    <a href="https://instagram.com/gans.elin" target="_blank" class="author-item">
+                        <img src="gans.elin.jpg" alt="gans.elin" class="avatar">
+                        <div class="author-info">
+                            <span class="role">created by</span>
+                            <span class="name">gans.elin</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://instagram.com/nor5k1_" target="_blank" class="author-item">
+                        <img src="rednorsk.jpg" alt="Tord Larkson" class="avatar">
+                        <div class="author-info">
+                            <span class="role">feat.</span>
+                            <span class="name">Tord Larkson</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Основной контент сайта про Германию -->
+        <main class="students-content">
+            
+            <!-- Главный баннер (Hero) -->
+            <section class="content-header hero-germany">
+                <span class="germany-badge">🇩🇪 Германия мечты</span>
+                <h1>Старинная архитектура, уютные кафе и золотая осень</h1>
+                <p class="germany-quote">
+                    «Я хочу побывать в Германии, потому что меня привлекают её старинная архитектура, красивые города, природа и особенная атмосфера. Мне хотелось бы не просто посетить известные достопримечательности, но и почувствовать себя местной жительницей...»
+                </p>
+            </section>
+
+            <!-- ИНТЕРАКТИВНЫЙ БЛОК МЕНЯЮЩИХСЯ ЦИТАТ -->
+<div class="quotes-slider-block">
+    <div class="quote-slide active">
+        <p>🍂 <span>«Особенно мне хочется увидеть Германию осенью, когда деревья окрашиваются в золотые и красные оттенки, а старинные города выглядят ещё атмосфернее.»</span></p>
+    </div>
+    <div class="quote-slide">
+        <p>☕ <span>«Мне хотелось бы не просто посетить известные достопримечательности, но и почувствовать себя местной жительницей, гулять по тихим улочкам и заходить в уютные кафе.»</span></p>
+    </div>
+    <div class="quote-slide">
+        <p>✨ <span>«Прохладная погода, золотые листья, туманные леса, старинные замки и маленькие кафе, в которых пахнет свежей выпечкой...»</span></p>
+    </div>
+    <div class="quote-slide">
+        <p>🏰 <span>«Я хочу гулять по старинным улицам без спешки, фотографировать красивые здания, искать уютные кафе и проводить время за книгой.»</span></p>
+    </div>
+
+    <!-- Индикаторы (точки) -->
+    <div class="quote-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</div>
+
+           <!-- РАЗДЕЛ: ГОРОДА ГЕРМАНИИ -->
+            <section class="germany-section">
+                <div class="section-title">
+                    <h2>🏛️ Города, которые я хочу посетить</h2>
+                    <p>Атмосферные улицы, старинная архитектура и уютные улочки</p>
+                </div>
+
+                <div class="students-grid germany-grid">
+                    
+                    <!-- 1. Берлин -->
+                    <div class="student-card germany-card" 
+                         data-type="city"
+                         data-name="Берлин" 
+                         data-subtitle="Столица и культурный центр" 
+                         data-desc="Хочу увидеть Бранденбургские ворота, Берлинскую стену, посетить музеи, книжные магазины и художественные галереи." 
+                         data-img="berlin.jpg">
+                        <img src="berlin.jpg" alt="Берлин" class="germany-card-img">
+                        <div class="germany-card-info">
+                            <h3>Берлин</h3>
+                            <span>Бранденбургские ворота, галереи и музеи</span>
+                        </div>
+                    </div>
+
+                    <!-- 2. Гейдельберг -->
+                    <div class="student-card germany-card" 
+                         data-type="city"
+                         data-name="Гейдельберг" 
+                         data-subtitle="Старый город и знаменитый замок" 
+                         data-desc="Хочу погулять по старому городу, увидеть знаменитый замок и насладиться красивыми видами на реку." 
+                         data-img="heidelberg.jpg">
+                        <img src="heidelberg.jpg" alt="Гейдельберг" class="germany-card-img">
+                        <div class="germany-card-info">
+                            <h3>Гейдельберг</h3>
+                            <span>Замок, виды на реку и старый город</span>
+                        </div>
+                    </div>
+
+                    <!-- 3. Мюнхен -->
+                    <div class="student-card germany-card" 
+                         data-type="city"
+                         data-name="Мюнхен" 
+                         data-subtitle="Баварская культура и кухня" 
+                         data-desc="Хочу посмотреть историческую архитектуру, посетить местные рынки и попробовать традиционную немецкую кухню." 
+                         data-img="munich.jpg">
+                        <img src="munich.jpg" alt="Мюнхен" class="germany-card-img">
+                        <div class="germany-card-info">
+                            <h3>Мюнхен</h3>
+                            <span>Историческая архитектура и рынки</span>
+                        </div>
+                    </div>
+
+                    <!-- 4. Гамбург -->
+                    <div class="student-card germany-card" 
+                         data-type="city"
+                         data-name="Гамбург" 
+                         data-subtitle="Каналы, мосты и портовый уют" 
+                         data-desc="Хочу увидеть каналы, мосты, старинные здания и погулять у воды." 
+                         data-img="hamburg.jpg">
+                        <img src="hamburg.jpg" alt="Гамбург" class="germany-card-img">
+                        <div class="germany-card-info">
+                            <h3>Гамбург</h3>
+                            <span>Прогулки у воды, мосты и каналы</span>
+                        </div>
+                    </div>
+
+                    <!-- 5. Ротенбург-об-дер-Таубер -->
+                    <div class="student-card germany-card" 
+                         data-type="city"
+                         data-name="Ротенбург-об-дер-Таубер" 
+                         data-subtitle="Сказочная средневековая Европа" 
+                         data-desc="Хочу пройтись по средневековым улочкам, увидеть фахверковые дома и почувствовать атмосферу старой Европы." 
+                         data-img="rothenburg.jpg">
+                        <img src="rothenburg.jpg" alt="Ротенбург-об-дер-Таубер" class="germany-card-img">
+                        <div class="germany-card-info">
+                            <h3>Ротенбург-об-дер-Таубер</h3>
+                            <span>Фахверковые дома и средневековье</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- МОДАЛЬНОЕ ОКНО ДЛЯ ДЕТАЛЕЙ О ГЕРМАНИИ -->
+            <div id="germanyModal" class="modal-overlay">
+                <div class="modal-content germany-modal-content">
+                    <button class="modal-close" id="germanyModalClose">&times;</button>
+                    <img id="gModalImg" src="" alt="" class="germany-modal-img">
+                    <h2 id="gModalTitle">Название</h2>
+                    <span id="gModalSubtitle" class="modal-role">Подзаголовок</span>
+                    
+                    <div class="modal-info-block">
+                        <p id="gModalDesc" class="info-value-quote" style="font-size: 15px; line-height: 1.6; color: #f4f0ea; font-style: normal;"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- РАЗДЕЛ 2: ПРИРОДА И СКАЗОЧНЫЕ МЕСТА -->
+            <section class="germany-section" style="margin-top: 40px;">
+                <div class="section-title">
+                    <h2>🌲 Природа и места, которые я мечтаю увидеть</h2>
+                    <p>Туманные леса, горные озёра и сказочные замки на холмах</p>
+                </div>
+
+                <div class="students-grid germany-grid">
+                    
+                    <!-- 1. Шварцвальд -->
+                    <div class="student-card germany-card" 
+                         data-type="nature"
+                         data-name="Шварцвальд (Чёрный лес)" 
+                         data-subtitle="Туманные лесные тропы" 
+                         data-desc="Хочу погулять среди высоких деревьев, увидеть туманные лесные тропы и насладиться тишиной." 
+                         data-img="schwarzwald.jpg">
+                        <img src="schwarzwald.jpg" alt="Шварцвальд" class="germany-card-img">
+                        <div class="germany-card-info">
+                            <h3>Шварцвальд</h3>
+                            <span>Высокие деревья, туман и лесная тишина</span>
+                        </div>
+                    </div>
+
+                    <!-- 2. Замок Нойшванштайн -->
+                    <div class="student-card germany-card" 
+                         data-type="nature"
+                         data-name="Замок Нойшванштайн" 
+                         data-subtitle="Сказочный замок в горах" 
+                         data-desc="Хочу увидеть его своими глазами, потому что он выглядит как замок из сказки." 
+                         data-img="neuschwanstein.jpg">
+                        <img src="neuschwanstein.jpg" alt="Замок Нойшванштайн" class="germany-card-img">
+                        <div class="germany-card-info">
+                            <h3>Замок Нойшванштайн</h3>
+                            <span>Настоящий замок из сказки</span>
+                        </div>
+                    </div>
+
+                    <!-- 3. Саксонская Швейцария -->
+                    <div class="student-card germany-card" 
+                         data-type="nature"
+                         data-name="Саксонская Швейцария" 
+                         data-subtitle="Уникальный горный заповедник" 
+                         data-desc="Хочу полюбоваться необычными скалами, горами и лесами." 
+                         data-img="saxon_switzerland.jpg">
+                        <img src="saxon_switzerland.jpg" alt="Саксонская Швейцария" class="germany-card-img">
+                        <div class="germany-card-info">
+                            <h3>Саксонская Швейцария</h3>
+                            <span>Необычные скалы, горы и леса</span>
+                        </div>
+                    </div>
+
+                    <!-- 4. Озеро Кёнигсзе -->
+                    <div class="student-card germany-card" 
+                         data-type="nature"
+                         data-name="Озеро Кёнигсзе" 
+                         data-subtitle="Кристально чистое альпийское озеро" 
+                         data-desc="Хочу увидеть прозрачную воду, окружённую горами, и сделать красивые фотографии." 
+                         data-img="konigssee.jpg">
+                        <img src="konigssee.jpg" alt="Озеро Кёнигсзе" class="germany-card-img">
+                        <div class="germany-card-info">
+                            <h3>Озеро Кёнигсзе</h3>
+                            <span>Прозрачная вода и горные пейзажи</span>
+                        </div>
+                    </div>
+
+                    <!-- 5. Долина Рейна -->
+                    <div class="student-card germany-card" 
+                         data-type="nature"
+                         data-name="Долина Рейна" 
+                         data-subtitle="Речные пейзажи и замки на холмах" 
+                         data-desc="Хочу посмотреть на старинные замки, расположенные на холмах вдоль реки." 
+                         data-img="rhine_valley.jpg">
+                        <img src="rhine_valley.jpg" alt="Долина Рейна" class="germany-card-img">
+                        <div class="germany-card-info">
+                            <h3>Долина Рейна</h3>
+                            <span>Старинные замки вдоль реки</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Акцентная цитата про осень -->
+                <div class="autumn-quote-block">
+                    <p>🍂 <span>«Особенно мне хочется увидеть Германию осенью, когда деревья окрашиваются в золотые и красные оттенки, а старинные города выглядят ещё атмосфернее.»</span></p>
+                </div>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
